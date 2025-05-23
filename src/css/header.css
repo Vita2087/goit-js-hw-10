@@ -3,7 +3,12 @@
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  color: rgb(219, 12, 19);
+  font-weight: bolder;
+  font-size: xx-large;
+  font-style: italic;
+  text-transform: uppercase;
 }
 .nav-logo {
   display: inline-flex;
