@@ -1,13 +1,16 @@
 .back-link {
   position: relative;
   display: inline-block;
+  margin-left: 0;
   padding: 4px 8px;
-  margin-top: 36px;
   border: 1px solid;
   border-radius: 10px;
+  margin-bottom: 40px;
+  background-color: brown;
+  color: #fff;
 }
 .back-link::before {
-  content: '';
+  content: ''; 
   position: absolute;
   top: 50%;
   left: 0;

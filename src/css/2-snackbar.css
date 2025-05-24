@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px;
@@ -7,11 +9,11 @@ body {
   
   .form {
     max-width: 340px;
-    margin: 60px auto 0 auto;
-    background: #ffffff92;
+    margin: 0 auto;
+    background: #ffffffb4;
     border-radius: 12px;
     padding: 24px;
-    box-shadow: 2px 8px 100px rgba(0, 0, 0, 1);
+    box-shadow: 2px 8px 50px rgba(0, 0, 0, 1);
   }
   
   .form label,
@@ -19,6 +21,12 @@ body {
     display: block;
     margin-bottom: 16px;
     font-size: 16px;
+  }
+
+  .state {
+    /* text-align: center; */
+    font-size: 16px;
+    margin-bottom: 16px;
   }
   
 .form input[type="number"] {
@@ -29,11 +37,13 @@ body {
     font-size: 24px;
     border: 1px solid #ccc;
     border-radius: 6px;
+    margin-top: 8px;
 }
   
   fieldset {
     border: none;
     padding: 0;
+    margin-bottom: 10px;
   }
   
   fieldset label {
